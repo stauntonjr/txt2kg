@@ -15,17 +15,17 @@
 
 ## Basic idea
 
-This playbook demonstrates how to build and deploy a comprehensive knowledge graph generation and visualization solution that serves as a reference for knowledge graph extraction.
+Builds and deploys a comprehensive knowledge graph generation and visualization solution that serves as a reference for knowledge graph extraction.
 The unified memory architecture enables running larger, more accurate models that produce higher-quality knowledge graphs and deliver superior downstream GraphRAG performance.
 
-This txt2kg playbook transforms unstructured text documents into structured knowledge graphs using:
+txt2kg transforms unstructured text documents into structured knowledge graphs using:
 - **Knowledge Triple Extraction**: Using Ollama with GPU acceleration for local LLM inference to extract subject-predicate-object relationships
 - **Graph Database Storage**: ArangoDB for storing and querying knowledge triples with relationship traversal
 - **GPU-Accelerated Visualization**: Three.js WebGPU rendering for interactive 2D/3D graph exploration
 
 > **Future Enhancements**: Vector embeddings and GraphRAG capabilities are planned enhancements.
 
-## What you'll accomplish
+## Deliverable
 
 You will have a fully functional system capable of processing documents, generating and editing knowledge graphs, and providing querying, accessible through an interactive web interface.
 The setup includes:
